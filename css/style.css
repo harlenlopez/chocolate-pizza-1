@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: rgb(250, 225, 225);
+  background-color: #fff;
 }
 
 hr {
@@ -23,7 +23,8 @@ hr {
 /* Header Styling */
 /******************/
 header {
-  width: 100%;
+  width: 901px;
+  margin: auto;
   display: inline-block;
 }
 
