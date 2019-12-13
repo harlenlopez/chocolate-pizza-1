@@ -1,0 +1,65 @@
+/**************************/
+/* Global Styling Section */
+/**************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(250, 225, 225);
+}
+
+hr {
+  width: 901px;
+  padding: 0.5rem;
+  margin: auto;
+  background: url('../img/hr-img.png') repeat;
+  border: none;
+}
+
+/******************/
+/* Header Styling */
+/******************/
+header {
+  width: 100%;
+  display: inline-block;
+}
+
+.logo-section {
+  display: inline-block;
+  float: left;
+}
+
+.logo-section img {
+  display: inline-block;
+}
+
+.logo-text {
+  display: inline-block;
+}
+
+.social-links {
+  float: right;
+}
+
+.social-right {
+}
+
+/**************************/
+/* Main "Article" Styling */
+/**************************/
+.article {
+  width: 901px;
+  margin: auto;
+}
+
+.article img {
+  text-align: center;
+}
+
+.checkboxes {
+  min-width: 4rem;
+  background-image: url('../img/list-bg.png') no-repeat center/cover;
+}
