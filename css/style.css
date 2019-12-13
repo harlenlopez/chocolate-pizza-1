@@ -14,7 +14,7 @@ body {
 hr {
   width: 901px;
   padding: 0.5rem;
-  margin: auto;
+  margin: 2rem auto;
   background: url('../img/hr-img.png') repeat;
   border: none;
 }
@@ -25,16 +25,24 @@ hr {
 header {
   width: 901px;
   margin: auto;
-  display: inline-block;
+  padding-bottom: 1rem;
+  display: block;
 }
 
 .logo-section {
   display: inline-block;
   float: left;
+  margin-top: 1rem;
 }
 
-.logo-section img {
+.logo-section h1 {
   display: inline-block;
+  font-family: 'Yellowtail', cursive;
+  font-size: 2.2rem;
+}
+
+.logo-section p {
+  font-size: 0.75rem;
 }
 
 .logo-text {
@@ -43,9 +51,11 @@ header {
 
 .social-links {
   float: right;
+  padding-top: 2rem;
 }
 
 .social-right {
+  margin-left: 0.5rem;
 }
 
 /**************************/
@@ -54,13 +64,48 @@ header {
 .article {
   width: 901px;
   margin: auto;
+  padding: 2rem 0;
 }
 
-.article img {
-  text-align: center;
+.article h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+}
+
+.post-date {
+  font-size: 0.8rem;
+  float: left;
+}
+
+.print {
+  font-size: 0.8rem;
+  float: right;
+}
+
+.choco-pizza {
+  padding-top: 2rem;
+}
+
+.article p {
+  margin-top: 2rem;
+  text-indent: 2rem;
+  font-size: 1.22rem;
 }
 
 .checkboxes {
-  min-width: 4rem;
-  background-image: url('../img/list-bg.png') no-repeat center/cover;
+  height: 305px;
+  width: 901px;
+  margin: auto;
+  background-image: url('../img/list-bg.png');
+}
+
+.author {
+  width: 901px;
+  margin: auto;
+}
+
+footer {
+  width: 901px;
+  margin: auto;
 }
