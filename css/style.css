@@ -96,12 +96,37 @@ header {
   font-size: 1.22rem;
 }
 
+/**************************/
+/* Recipe Section Styling */
+/**************************/
+
 .checkboxes {
   height: 305px;
   width: 901px;
   margin: auto;
   background-image: url('../img/list-bg.png');
+  font-family: 'Patrick Hand', cursive;
 }
+
+.left-checkbox {
+  float: left;
+  margin: 2rem 0 0 4rem;
+  font-size: 1.4rem;
+}
+
+.right-checkbox {
+  float: right;
+  margin: 2rem 15rem 0 0;
+  font-size: 1.4rem;
+}
+
+li {
+  margin: 0.55rem 0 0 0;
+}
+
+/**************************/
+/* Author Section Styling */
+/**************************/
 
 .author {
   width: 901px;
@@ -117,10 +142,17 @@ header {
   font-size: 1.4rem;
   font-weight: bold;
   vertical-align: top;
+  background-color: red;
+}
+
+.author br {
+  display: inline-block;
 }
 
 .author p {
   display: inline-block;
+  vertical-align: middle;
+  background-color: blue;
 }
 
 .author a {
