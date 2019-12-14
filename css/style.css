@@ -1,0 +1,169 @@
+/**************************/
+/* Global Styling Section */
+/**************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+hr {
+  width: 901px;
+  padding: 0.5rem;
+  margin: 2rem auto;
+  background: url('../img/hr-img.png') repeat;
+  border: none;
+}
+
+/******************/
+/* Header Styling */
+/******************/
+header {
+  width: 901px;
+  margin: auto;
+  padding-bottom: 1rem;
+  display: block;
+}
+
+.logo-section {
+  display: inline-block;
+  float: left;
+  margin-top: 1rem;
+}
+
+.logo-section h1 {
+  display: inline-block;
+  font-family: 'Yellowtail', cursive;
+  font-size: 2.2rem;
+}
+
+.logo-section p {
+  font-size: 0.75rem;
+}
+
+.logo-text {
+  display: inline-block;
+}
+
+.social-links {
+  float: right;
+  padding-top: 2rem;
+}
+
+.social-right {
+  margin-left: 0.5rem;
+}
+
+/**************************/
+/* Main "Article" Styling */
+/**************************/
+.article {
+  width: 901px;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+.article h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+}
+
+.post-date {
+  font-size: 0.7rem !important;
+  text-indent: 0 !important;
+  margin-top: 0.5rem !important;
+  float: left;
+}
+
+.print {
+  font-size: 0.7rem !important;
+  margin-top: 0.5rem !important;
+  float: right;
+}
+
+.choco-pizza {
+  padding-top: 2rem;
+}
+
+.article p {
+  margin-top: 2rem;
+  text-indent: 2rem;
+  font-size: 1.22rem;
+}
+
+/**************************/
+/* Recipe Section Styling */
+/**************************/
+
+.checkboxes {
+  height: 305px;
+  width: 901px;
+  margin: auto;
+  background-image: url('../img/list-bg.png');
+  font-family: 'Patrick Hand', cursive;
+}
+
+.left-checkbox {
+  float: left;
+  margin: 2rem 0 0 4rem;
+  font-size: 1.4rem;
+}
+
+.right-checkbox {
+  float: right;
+  margin: 2rem 15rem 0 0;
+  font-size: 1.4rem;
+}
+
+li {
+  margin: 0.55rem 0 0 0;
+}
+
+/**************************/
+/* Author Section Styling */
+/**************************/
+
+.author {
+  width: 901px;
+  margin: auto;
+}
+
+.author img {
+  display: inline-block;
+}
+
+.author pre {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0;
+}
+
+.author pre span {
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 0;
+}
+
+.author a {
+  padding: 1rem;
+  color: white;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  background-color: darkorange;
+  float: right;
+}
+
+/**************************/
+/* Footer Section Styling */
+/**************************/
+
+footer {
+  width: 901px;
+  margin: 2rem auto 0;
+  text-align: center;
+}
