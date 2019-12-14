@@ -137,22 +137,16 @@ li {
   display: inline-block;
 }
 
-.author h3 {
+.author pre {
   display: inline-block;
+  vertical-align: top;
+  padding: 0;
+}
+
+.author pre span {
   font-size: 1.4rem;
   font-weight: bold;
-  vertical-align: top;
-  background-color: red;
-}
-
-.author br {
-  display: inline-block;
-}
-
-.author p {
-  display: inline-block;
-  vertical-align: middle;
-  background-color: blue;
+  padding: 0;
 }
 
 .author a {
@@ -170,5 +164,6 @@ li {
 
 footer {
   width: 901px;
-  margin: auto;
+  margin: 2rem auto 0;
+  text-align: center;
 }
